@@ -1,12 +1,11 @@
 # Poly Flashloan Bot
 
-![test](https://github.com/yuichiroaoki/poly-flashloan-bot/actions/workflows/node.js.yaml/badge.svg)
 
-An open source flashloan bot on polygon network
+The flashloan bot on polygon network
 
 ## Prerequisites
 
-This flashloan bot works with [the smart contract](https://github.com/yuichiroaoki/poly-flash/blob/main/contracts/Flashloan.sol).
+This flashloan bot needs to work with [the smart contract](https://github.com/serenitysource/poly-flash/blob/main/contracts/Flashloan.sol).
 
 You need to deploy your own smart contract on polygon mainnet if you want to run this bot.
 
@@ -15,13 +14,6 @@ You need to deploy your own smart contract on polygon mainnet if you want to run
 ### 1. Install [Node.js](https://nodejs.org/en/) & [yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable), if you haven't already.
 
 ### 2. Clone This Repo
-
-Run the following command.
-
-```bash
-https://github.com/yuichiroaoki/poly-flashloan-bot.git
-cd poly-flashloan-bot
-```
 
 ## Quickstart
 
@@ -65,7 +57,7 @@ yarn start
 
 ## Configuration
 
-Edit [src/config.ts](https://github.com/yuichiroaoki/poly-flashloan-bot/blob/main/src/config.ts)
+Edit [src/config.ts](https://github.com/serenitysource/poly-flashloan-bot/blob/main/src/config.ts)
 
 If you have deployed your own contract, replace `flashloan address` to your deployed smart contract address.
 
@@ -77,9 +69,9 @@ Note: If you update the flashloan smart contract, you need to replace [this ABI]
 
 ## ABI
 
-This flashloan bot uses an ABI from [this flashloan smart contract](https://github.com/yuichiroaoki/poly-flash/blob/main/contracts/Flashloan.sol).
+This flashloan bot uses an ABI from [this flashloan smart contract](https://github.com/serenitysource/poly-flash/blob/main/contracts/Flashloan.sol).
 
-If you update the flashloan smart contract, you need to replace [this ABI](https://github.com/yuichiroaoki/poly-flashloan-bot/blob/main/src/abis/Flashloan.json) to the new one.
+If you update the flashloan smart contract, you need to replace [this ABI](https://github.com/serenitysource/poly-flashloan-bot/blob/main/src/abis/Flashloan.json) to the new one.
 
 ## Docker
 
